@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --animation-duration: 250ms;
   }
@@ -65,7 +65,7 @@
   }
   
   /* Lightbox */
-  .lightbox {
+  /* .lightbox {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,4 +137,30 @@
   .lightbox__button:hover,
   .lightbox__button:focus {
     background-color: rgba(0, 0, 0, 0.5);
+  }  */
+
+
+  /* hw3 */
+  /* header{
+    height: 1000px;
+    width: 300px;
+    margin: 200px auto;
+
+
   }
+  section{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    >img{
+      height: 400px;
+      width: 400px;
+      margin: 0 auto;
+    }
+  } */
+
+
+
+
+
+  
