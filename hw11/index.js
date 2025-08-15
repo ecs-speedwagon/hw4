@@ -1,30 +1,30 @@
-const divMin = document.querySelector('#seconds');
-const startBtn = document.querySelector('#start');
+// const divMin = document.querySelector('#seconds');
+// const startBtn = document.querySelector('#start');
 
-let timer = null;
+// let timer = null;
 
-function anotherTimer(){
-    let seconds = 3000;
-    divMin.textContent = seconds;
-    clearInterval(timer);
-        let s = Math.floor((seconds/1000)%60);
-        let ms = Math.floor(seconds%1000);
+// function anotherTimer(){
+//     let seconds = 3000;
+//     divMin.textContent = seconds;
+//     clearInterval(timer);
+//         let s = Math.floor((seconds/1000)%60);
+//         let ms = Math.floor(seconds%1000);
 
-    timer = setInterval(()=>{
-        let s = Math.floor((seconds/100)%60);
-        let ms = Math.floor(seconds%100);
-        seconds --;
-        divMin.textContent = `${s}.${ms}`;
-        if(seconds ===1000){
-            alert('Пройшло 20сек')
-        }
-        if(seconds <=0){
-            startBtn.style.backgroundColor = 'red';
-            clearInterval(timer)
-        }
-    },10)
-}
-startBtn.addEventListener('click', anotherTimer);
+//     timer = setInterval(()=>{
+//         let s = Math.floor((seconds/100)%60);
+//         let ms = Math.floor(seconds%100);
+//         seconds --;
+//         divMin.textContent = `${s}.${ms}`;
+//         if(seconds ===1000){
+//             alert('Пройшло 20сек')
+//         }
+//         if(seconds <=0){
+//             startBtn.style.backgroundColor = 'red';
+//             clearInterval(timer)
+//         }
+//     },10)
+// }
+// startBtn.addEventListener('click', anotherTimer);
 
 
 // function startTimer() {
