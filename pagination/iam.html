@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <style>
+       .img-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
+}
+
+.img-box div {
+  flex: 0 0 calc(25% - 10px); 
+  border-radius: 8px;
+  height: auto;
+  overflow: hidden;
+  align-items: center;  
+}
+
+.img-box div img {
+  width: 100%;
+  height: auto;
+  object-fit:cover; 
+  display: block;
+}
+.more {
+display: block;
+margin: 20px auto;
+padding: 10px 20px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;}
+
+    </style>
+</head>
+<body>
+    <div class="img-box"></div>
+    <button class="more">MORE</button>
+    <script src="./legend.js"></script>
+</body>
+</html>
